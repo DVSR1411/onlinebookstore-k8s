@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: onlinebookstore
-        image: dvsr1411/onlinebookstore:v1
+        image: dvsr1411/onlinebookstore:env.BUILD_NUMBER
         ports:
         - containerPort: 8080
         env:
